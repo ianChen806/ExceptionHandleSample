@@ -19,6 +19,7 @@ namespace ExceptionHandleSample.Pages
 
         public void OnGet()
         {
+            throw new Exception("my exception");
         }
     }
 }
